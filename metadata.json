@@ -1,0 +1,5 @@
+{
+  "name": "AI Interior Design Consultant",
+  "description": "Upload a photo of your room and reimagine it in different styles with AI. Includes an interactive before/after slider and a chat assistant to refine the design and find shoppable items.",
+  "requestFramePermissions": []
+}

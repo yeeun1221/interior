@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --color-warm-bg: #fcfbf9;
+  --color-warm-surface: #ffffff;
+  --color-ink: #1a1a1a;
+  --color-accent: #8c7a6b;
+}
+
+body {
+  background-color: var(--color-warm-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-serif);
+}
